@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mods pour Minecraft</title>
+		<meta charset="UTF-8" />
+		<link href="../css/minecraft.css" rel="stylesheet" type="text/css" />
+		<link href="../css/form.css" rel="stylesheet" type="text/css" />
+		
+	</head>
+	<body> 
+		<div id="wrapper">
+			<header>
+				<h1>Mods pour Minecraft</h1> 
+			</header> 
+			<nav> 
+				<ul> 
+					<li><a href="../index.html">Minecraft</a></li>
+					<li><a href="mods.html">Mods</a></li> 
+					<li><a href="liens.html">Liens</a></li> 
+					<li><a href="commentaire.html" class="current">Commentaire</a></li> 
+				</ul> 
+			</nav> 
+			<main>
+				<h1>Un commentaire sur un mod ?</h1>
+				<form action="http://vm-debian.iesn.be/ig40/showGetPost.php" method="POST">
+					<fieldset>
+						<legend>Votre identité</legend>
+						<p class="entree">
+							<label for="nomPrenom">Prénom et nom</label>
+							<input type="text"  id="nomPrenom" name="nomPrenom" required placeholder="Entrez votre nom suivi de votre prénom..."/>
+						</p>
+						<p class="entree"> 
+							<label for="mail" >Email</label> 
+							<input type="email" id="mail" name="mail" required placeholder="exemple@domaine.com"/>
+						</p> 
+					</fieldset> 
+					<fieldset>
+						<legend>Votre commentaire</legend>
+						<p class="entree"> 
+							<label for="modChoisi">Mod choisi</label>
+							<select name="mod" id="modChoisi">
+								<option value="AE">Applied Energistics</option> 
+								<option value="BC">BiblioCraft</option>
+								<option value="BR">Big Reactors</option> 
+								<option value="BOP">Biomes O'Plenty</option>
+								<option value="CCB">Chisel/Carpenter'block</option>
+								<option value="TF">Twilight Forest</option>
+							</select>
+						</p>
+						<p class="entree">
+							<label for="comm">Commentaire libre</label> 
+							<textarea id="comm" name="comm" cols="44" rows="5" placeholder="Ajoutez un commentaire ici."></textarea>
+						</p>
+					</fieldset>
+					<input type="submit" id="bouton"/> 
+				</form>
+			</main> 
+			<footer> 
+				<p>Inspirations : 
+					<a href="http://minecraft.fr">Minecraft.fr</a> et
+					<a href="http://minecraft-fr.gamepedia.com/Minecraft_Wiki"> Minecraft Wiki</a>. 
+				</p> 
+				<p>(c) HENALLUX 2017</p> 
+			</footer> 
+		</div>
+	</body>
+</html>

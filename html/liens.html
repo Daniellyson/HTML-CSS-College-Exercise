@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Mods pour Minecraft</title>
+		<meta charset="UTF-8" />
+		<link href="../css/minecraft.css" rel="stylesheet" type="text/css" />
+		<style>
+			article.lienMod {
+				color : rgb(129,187,91);
+				margin : 0px;
+				padding : 3px;
+				width : 200px;
+				min-width : 200px;
+			}
+			
+			article.lienMod h1{
+				font-size : 120%;
+				font-family : helvetica;
+				margin-right : 8px;
+				border-bottom : 2px dotted rgb(129,187,91)
+			}
+			
+			article.lienMod img{
+				margin-right : auto;
+				margin-left : auto;
+				width : 95%;
+				border : 2px solid rgb(121,86,59);
+			}
+			
+			article.lienMod img:hover{
+				border : 2px solid rgb(129,187,91);
+			}
+			
+			#artWrapper{
+				display : flex;
+				flex-wrap : wrap;
+				justify-content : space-between;
+			}
+		</style>
+	</head>
+	<body> 
+		<div id="wrapper">
+			<header>
+				<h1>Mods pour Minecraft</h1> 
+			</header> 
+			<nav> 
+				<ul> 
+					<li><a href="../index.html">Minecraft</a></li>
+					<li><a href="mods.html">Mods</a></li> 
+					<li><a href="liens.html" class="current">Liens</a></li> 
+					<li><a href="commentaire.html">Commentaire</a></li> 
+				</ul> 
+			</nav> 
+			<main>	
+				<h1>Quelques liens...</h1> 
+				<div id="artWrapper">
+					<article class ="lienMod"> 
+						<h1>Applied Energistics</h1>
+						<a href="http://ae-mod.info/"><img src="../images/mods/appliedEnergistic.jpg" alt="Applied Energistics"/> </a>
+					</article>
+					<article class ="lienMod"> 
+						<h1>Biomes O'Plenty</h1> 
+					<a href="http://fr.biomesoplenty.wikia.com/"> <img src="../images/mods/biomesOPlenty.jpg" alt="Biomes O'Plenty"/> </a> 
+						</article> 
+						<article class ="lienMod">
+						<h1>ComputerCraft</h1>
+					<a href="http://www.computercraft.info/"> <img src="../images/mods/computerCraft.jpg" alt="ComputerCraft"/> </a> 
+					</article> 
+					<article class ="lienMod"> 
+						<h1>Ender IO</h1> 
+						<a href="http://enderio.com/"> <img src="../images/mods/enderIO.jpg" alt="Ender IO"/> </a> 
+					</article> 
+					<article class ="lienMod"> 
+						<h1>Journey Map</h1>
+						<a href="http://journeymap.techbrew.net/"> <img src="../images/mods/journeyMap.jpg" alt="Journey Map"/> </a> 
+					</article> 
+					<article class ="lienMod"> 
+						<h1>Project Red</h1>
+						<a href=" http://projectredwiki.com"> <img src="../images/mods/projectRed.jpg" alt="Project Red"/> </a> 
+					</article>
+				</div>	
+			</main> 
+		
+			<footer> 
+				<p>Inspirations : 
+					<a href="http://minecraft.fr">Minecraft.fr</a> et
+					<a href="http://minecraft-fr.gamepedia.com/Minecraft_Wiki"> Minecraft Wiki</a>. 
+				</p> 
+				<p>(c) HENALLUX 2017</p> 
+			</footer> 
+		</div>
+	</body>
+</html>
