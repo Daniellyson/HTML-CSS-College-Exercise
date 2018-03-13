@@ -1,4 +1,4 @@
-## HTML-CSS-College-Exercise
+## HTML-CSS Minecraft
 
 Il s'agit d'un site permettant de découvrir le jeu Minecraft et particulièrement les mods qui peuvent lui être ajoutés.
 
